@@ -86,19 +86,29 @@ export default class index extends Component {
       }
     });
 
+    let buttonClass;
     let tagsSection;
     if (this.state.filters.length > 0) {
-      tagsSection = this.state.filters.map(filter => (
-        <button
-          style={{ marginLeft: 10 }}
-          type="button"
-          className="btn btn-sm btn-outline-primary"
-          key={filter}
-          onClick={() => this.onFilterButtonClick(filter)}
-        >
-          {filter}
-        </button>
-      ));
+      tagsSection = this.state.filters.map(filter => {
+        let appliedFilters = this.state.appliedFilters;
+        if (appliedFilters.includes(filter)) {
+          buttonClass = "btn btn-primary btn-sm";
+        } else {
+          buttonClass = "btn btn-sm btn-outline-primary";
+        }
+
+        return (
+          <button
+            style={{ marginLeft: 10 }}
+            type="button"
+            className={buttonClass}
+            key={filter}
+            onClick={() => this.onFilterButtonClick(filter)}
+          >
+            {filter}
+          </button>
+        );
+      });
     }
 
     return (
