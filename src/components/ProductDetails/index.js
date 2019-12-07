@@ -14,9 +14,8 @@ export default class index extends Component {
     fetch("/data/data.json")
       .then(res => res.json())
       .then(products => {
-        let result = products.find(product => product.productId == productId);
+        let result = products.find(product => product.productId === productId);
         this.setState({ product: result });
-        console.log(this.state.product.reviews);
       });
   }
   render() {
@@ -25,6 +24,10 @@ export default class index extends Component {
         {this.state.product ? (
           <div>
             <h1>{this.state.product.productName}</h1>
+            <img
+              style={{ maxHeight: 200 }}
+              src={this.state.product.image}
+            ></img>
             <Reviews reviews={this.state.product.reviews}></Reviews>
           </div>
         ) : null}
