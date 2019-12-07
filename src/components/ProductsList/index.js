@@ -1,8 +1,25 @@
 import React, { Component } from "react";
-import { findByLabelText } from "@testing-library/dom";
+import { Link, useParams } from "react-router-dom";
 
 export default class index extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
+    let products = this.props.products;
+    let listItems;
+    if (products.length > 0) {
+      listItems = products.map(product => (
+        <Link
+          type="button"
+          className="list-group-item list-group-item-action"
+          to={`/products/${product.productId}`}
+          key={product.productId}
+        >
+          {product.productName}
+        </Link>
+      ));
+    }
     return (
       <div
         style={{
@@ -13,32 +30,7 @@ export default class index extends Component {
       >
         <h1>Products List</h1>
         <div style={{ marginTop: 20 }}>
-          <div className="list-group">
-            <button
-              type="button"
-              class="list-group-item list-group-item-action"
-            >
-              Nokia Phone
-            </button>
-            <button
-              type="button"
-              className="list-group-item list-group-item-action"
-            >
-              Microphone
-            </button>
-            <button
-              type="button"
-              className="list-group-item list-group-item-action"
-            >
-              Morbi leo risus
-            </button>
-            <button
-              type="button"
-              className="list-group-item list-group-item-action"
-            >
-              Porta ac consectetur ac
-            </button>
-          </div>
+          <div className="list-group">{listItems}</div>
         </div>
       </div>
     );
