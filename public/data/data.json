@@ -69,5 +69,40 @@
                 ]
             }
         ]
+    },
+    {
+        "productName": "Headset",
+        "productId": "B000DLAMPO",
+        "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1562126358-best-phone-case-apple-1562126347.png",
+        "reviews": [
+            {
+                "review": "The sound in bound and out bound is spotty; seems to be impacted by ambient noise.  While this is my first wireless ear-piece, it was somewhat difficult to \"form\" to my ear [or I have a weird ear?]. I've had it less than two weeks and the ear piece has already broken ... seems a little funny for the price and reputation.  Jabra must know this because they offer two replacements FREE on their web-site.",
+                "tags": [
+                    "sound",
+                    "noise",
+                    "ear",
+                    "headset",
+                    "price"
+                ]
+            },
+            {
+                "review": "I have used several Motorola BT headsets and been pretty pleased with them (until I lost them or they went through the wash!) I decided to try something different this time, and after reading several reviews bought the JX-10. I am not disappointed with the sound but there are a few drawbacks. First, the fit to my ear isn't great. It ends up getting pulled away from my ear pretty easily. The manual isn't much help when it comes to adjusting fit. All it says is \"wear it how you like it.\"The other thing is the stand is pretty much a waste. It is really tricky getting the earpiece onto the stand.If I had paid the original $180, I would be pretty disappointed in the headset. At less than $100, it's not so bad.",
+                "tags": [
+                    "headset",
+                    "sound",
+                    "ear"
+                ]
+            },
+            {
+                "review": "I own a Treo 650 and have had several BT headsets in the past, and have not been happy with any of them until now.  The Jabra is a very nice device.  Excellent build quality, small size, comfortable to wear, intuitive to use, etc.  The device is very light and you don't even need the wrap around earpice to keep it secure for normal daily wear ... the unit stay's fairly secure in your ear without it!!  The charge lasts for several days, and it ships with a USB charge cable and a very stylish wall charger/docking station.  It charges in just a few hours, and lasts for days.  The only thing that concerned me about this headset was that since it is so small, I feared losing it (misplacing it) so I devised a clever way of keeping track of it.  I owned a previous Jabra headset with a compatible USB cable/connector, so I cut off the end that plugs into the headset, drilled a small hole it it and attached a neck cord from a USB thumb drive.  When I am not using the headset (during business meetings etc) I can just plug it into the miniature USB connector and securely hang it around my neck.  This also keeps it handy for a quick detach to answer a call, etc.  Buy one .... you won't regret it!!",
+                "tags": [
+                    "headset",
+                    "quality",
+                    "size",
+                    "charge",
+                    "USB"
+                ]
+            }
+        ]
     }
 ]

@@ -9,5 +9,11 @@
         "quality",
         "price",
         "color"
+    ],
+    "headset": [
+        "sound",
+        "price",
+        "qualize",
+        "size"
     ]
 }
