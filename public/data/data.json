@@ -42,27 +42,30 @@
     {
         "productName": "Phone Case",
         "productId": "110400550",
-        "image": "https://www.ideabeam.com/images/product/big/nokia-21.jpg",
+        "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1562126358-best-phone-case-apple-1562126347.png",
         "reviews": [
             {
                 "review": "The case pictured is a soft violet color, but the case cover I received was a dark purple. While I'm sure the quality of the product is fine, the color is very different.",
                 "tags": [
                     "color",
-                    "quality"
+                    "quality",
+                    "case"
                 ]
             },
             {
                 "review": "Saw this same case at a theme park store for 25 dollars. This is very good quality for a great price.",
                 "tags": [
                     "quality",
-                    "price"
+                    "price",
+                    "case"
                 ]
             },
             {
                 "review": "I like the case for its colors, but the lower part where it should snap onto the upper part, comes off easily.",
                 "tags": [
                     "case",
-                    "color"
+                    "color",
+                    "case"
                 ]
             }
         ]

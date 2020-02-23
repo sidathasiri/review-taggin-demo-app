@@ -19,6 +19,7 @@ export default class index extends Component {
       });
   }
   render() {
+    console.log("state %O", this.state);
     return (
       <div>
         {this.state.product ? (

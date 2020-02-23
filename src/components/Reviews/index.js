@@ -74,6 +74,7 @@ export default class index extends Component {
   }
 
   render() {
+    console.log("review state %O", this.state);
     let reviewsSection = this.state.reviews.map(review => {
       if (this.isApplicable(review.tags)) {
         return (
